@@ -8,6 +8,6 @@ class open_browser_url(sublime_plugin.TextCommand):
       url = url.replace('\\', '/')
       url = url.replace('file:////', '/')
       url = url.replace('/home/faron/www/faronintel/html/','f5/')
-      url = url.replace('/home/faron/lib/script/htmls/','f5/')
+      url = url.replace('/home/faron/var/Scripts/htmls/','f5/')
       url = 'http://' + url
       webbrowser.open_new(url)
